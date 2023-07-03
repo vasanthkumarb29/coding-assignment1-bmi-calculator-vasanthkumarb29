@@ -1,0 +1,15 @@
+{
+  "name": "coding-assignment1-bmi-calculator-vasanthkumarb29",
+  "version": "1.0.0",
+  "description": "BMI-Calcculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VasanthKumar B",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
