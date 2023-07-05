@@ -13,7 +13,8 @@ app.post('/', (req, res) => {
     var name = req.body.name;
     var height = parseFloat(req.body.height);
     var weight = parseFloat(req.body.weight);
-    var BMI = weight / (height ** 2);
+    var heightM=height/100
+    var BMI = weight / (heightM ** 2);
     res.send(`Hello ${name}, your BMI is ${BMI}`);
 });
 
